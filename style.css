@@ -1,0 +1,133 @@
+html {
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #473E66;
+}
+
+header {
+    background-color: #06142E;
+    padding: 20px 0px;
+    width: 100%;
+    height: 120px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+@font-face {
+    font-family: crang;
+    src: url('fontes/Crang.ttf') format('truetype');
+    font-weight: normal;
+}
+
+#titulo-principal {
+    color: #FFFFFF;
+    text-align: center;
+    font-family: crang;
+    font-size: 50px;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: upheaval;
+    src: url('/fontes/Upheaval.ttf') format('truetype');
+    font-weight: normal;
+}
+
+#explicacao {
+    color: #FFFFFF;
+    font-family: upheaval;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 180px;
+    padding: 0 500px;
+}
+
+label {
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.form {
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form input[type="number"] {
+    width: 200px;
+    height: 25px;
+}
+
+#guessField {
+    border-radius: 15px;
+}
+
+.guessSubmit {
+    margin-top: 10px;
+    color: #FFFFFF;
+    background-color: #06142E;
+    border-color: #06142E;
+    border-radius: 15px;
+    border-style: hidden;
+    padding: 10px;
+    
+    
+}
+
+.resultParas {
+    text-align: center;
+    color: white;
+}
+
+.guesses {
+    padding-top: 10px;
+}
+
+.lastResult {
+    padding: 3px;
+    margin: 0 920px;
+    margin-bottom: 5px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: #06142E;
+    color: #FFF;
+    width: 100%;
+    height: 200px;    
+    text-align: center;
+    line-height: 100px;
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+}
+
+#face {
+    width: 55px;
+    height: 55px;
+    margin-top: 17px;
+}
+
+#insta {
+    margin-right: 50px;
+}
+
+#tt {
+    
+}
+
+#ref {
+    margin-top: 90px;
+}
