@@ -45,6 +45,7 @@ let randomNumber = Math.floor(Math.random() * 100) + 1;
         guessField.disabled = true;
         guessSubmit.disabled = true;
         resetButton = document.createElement('button');
+        resetButton.setAttribute("id","btn-gameover");
         resetButton.textContent = 'Jogar novamente';
         document.body.appendChild(resetButton);
         resetButton.addEventListener('click', resetGame);
